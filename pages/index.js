@@ -1,5 +1,6 @@
-import Head from 'next/head'
-import styles from '../styles/Home.module.css'
+import Head from 'next/head';
+import Link from 'next/link';
+import styles from '../styles/Home.module.css';
 
 export default function Home() {
   return (
@@ -15,6 +16,10 @@ export default function Home() {
           If you see this card centered horizontally, it means TailwindCSS is working properly.
         </p>
       </div>
+
+    <Link href="/about">
+      <a className="text-blue-400">About page</a>
+    </Link>
 
     </div>
 
