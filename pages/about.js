@@ -1,5 +1,7 @@
 import Head from 'next/head';
-import Link from 'next/link';
+
+
+import NavBar from '../components/About/NavBar';
 
 const About = () => (
 	<div className="bg-gray-100 h-screen flex flex-col items-center">
@@ -7,9 +9,7 @@ const About = () => (
 			<title>About</title>
 		</Head>
 
-		<Link href="/">
-			<a className="text-blue-400 mt-32">Go Home</a>
-		</Link>
+		<NavBar />
 
 		<div className="mt-8">
 			About Page
