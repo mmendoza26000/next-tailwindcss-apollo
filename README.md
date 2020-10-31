@@ -19,7 +19,7 @@ You can start editing the page by modifying `pages/index.js`. The page auto-upda
 
 
 ## How to use:
-1. Go to /lub/apolloClient and update the uri for httpLink and wsLink
+1. Go to /lib/apolloClient and update the uri for httpLink and wsLink
 2. You should have a table named 'test' in your GraphQl endpoint, with at least one record. See the file /graphql/Test.js to see the test query and subscription.
 3. Start with 
 
